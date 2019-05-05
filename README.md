@@ -8,7 +8,7 @@ As the name suggests, this is not intended to be the next great stack. I am a te
 
 ## Backend: Server-Side Swift (Vapor)
 
-Technologically, the "database" is a single JSON file, words.json. This short list of words is in the repoistory, and new rods are added to it on the fly. There is no long-term persitence here, it is not a DB (think impoverished NoSQL here). There is a single API route, `/word`, which will respond with a message that either the word has been found, or it has been added to The Set. 
+Technologically, the "database" is a single JSON file, words.json. This short list of words is in the repoistory, and new rods are added to it on the fly. There is no long-term persitence here, it is not a DB (think impoverished NoSQL here). There is a single API route, `/word`, which will respond with a message that either the word has been found, or it has been added to The Set. The data has been populated with the help of the appropriately named [list of random words](http://listofrandomwords.com/) site. 
 
 I created this project using `vapor new WordsSet --template=api`. I am learning off of the [official documentation](https://docs.vapor.codes/3.0/). Swift version is 5.01, xcode is 10.2.1, Vapor 3.1.10 (I think).
 
