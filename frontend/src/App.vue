@@ -1,18 +1,16 @@
 <template>
     <div class="app">
-        <counter-button></counter-button>
-        <hello-world></hello-world>
+        <word-query></word-query>
     </div>
 </template>
 
 <script>
 
-import CounterButton from './components/CounterButton.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import WordQuery from './components/WordQuery.vue'
 
 export default {
     name: 'App',
-    components: { CounterButton, HelloWorld }   
+    components: { WordQuery }   
 };
 </script>
 
