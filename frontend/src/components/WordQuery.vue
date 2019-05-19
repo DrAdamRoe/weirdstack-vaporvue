@@ -25,7 +25,7 @@ export default {
     },
     methods: {
         submit(e) {
-            this.axios.post('http://localhost:8080/word',{
+            this.axios.post('http://localhost:9001/word',{
                 word: this.word
             }
             )
