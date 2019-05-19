@@ -4,7 +4,9 @@ A simple app to learn some things I don't know: server-side Swift (Vapor), Vue.j
 
 The app itself - merely an excuse to try to the tech - is essentially an impoverished search engine. You can type a word into the query box, and will get a message that this word is or is not in The Words Set. If it is not in the set, the backend will add it to the set. 
 
-As the name suggests, this is not intended to be the next great stack. I am a teacher at CODE University of Applied Sciences in Berlin, where students spend their semesters working on projects. The choices sorrounding technology are entirely theirs. At the end of the semester, I am supposed to assess their work. As far as I can tell, the choice of technology is often based on what's trending on Twitter. In order to stay young and not look like a complete fool when running an exam, I try out funny stacks every now and then. The choice of technology is purely based on me not having used these tools before, not based on what makes sense.  
+As the name suggests, this is not intended to be the next great stack. I am a teacher at CODE University of Applied Sciences in Berlin, where students spend their semesters working on projects. The choices sorrounding technology are entirely theirs. At the end of the semester, I am supposed to assess their work. As far as I can tell, the choice of technology is often based on what's trending on Twitter. In order to stay young and not look like a complete fool when running an exam, I try out funny stacks every now and then. The choice of technology is purely based on me not having used these tools before, not based on what makes sense. 
+
+The `run.sh` script might start the frontend and backend, or it might kill other things running on your computer. It is there so that I don't forget how to run this, not really for use. 
 
 ## Backend: Server-Side Swift (Vapor)
 
