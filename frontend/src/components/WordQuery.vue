@@ -4,14 +4,15 @@
             word: <input type="text" v-model="word">
             <input type="submit" value="Submit">
         </form>
+        <!--  
         <h2>Word: </h2>
         <pre>
             {{word}}
         </pre>
-        <h2>Output: </h2>
+       <h2>Output: </h2>
         <pre>
             {{output}}
-        </pre>
+        </pre> -->
     </div>
 </template>
 
