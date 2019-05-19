@@ -28,7 +28,7 @@ To run: `$ npm run dev`.
 - [ ] Change design to be silly 
 - [ ] Add components, play with store. 
 - [ ] Add a test or two
-- [ ] Dockerize backend (run swift on Linux)
+- [ ] Dockerize backend
 - [ ] Integrate on Nuxt for server-side rendering
 
 
